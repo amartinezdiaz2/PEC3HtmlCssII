@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.cards-bands {
+  @apply max-w-xs p-2;
+}
+
+.bands-figure {
+  @apply w-52 h-52 mx-auto;
+}
+
+.bands-img{
+  @apply shadow w-52 h-52 p-3 mb-5 rounded-full;
+}
+
+.infor-figure {
+  @apply max-w-sp mx-auto mb-4;
+}
+
+.navi {
+  @apply flex flex-wrap list-none pl-0 mb-0;
+}
+
+.navi-link {
+  @apply block px-4 py-2 no-underline text-blueText hover:text-newHover;
+}
